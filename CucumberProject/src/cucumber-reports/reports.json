@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T12:45:34.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8466401200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegistrationDemo.demo()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Sean shouts",
+        "description": "",
+        "id": "shout-feature;sean-shouts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 385100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Sean is 10 meters away from Lucia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefnitions.sean_is_meters_away_from_Lucia(Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Sean shouts \"Free Coffee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Free Coffee\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefnitions.sean_shouts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3142000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Lucia \"listens\" to the message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"listens\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDefnitions.lucia_to_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-26T12:45:42.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7218561800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegistrationDemo.demo()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Sean shouts",
+        "description": "",
+        "id": "shout-feature;sean-shouts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sean is 200 meters away from Lucia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefnitions.sean_is_meters_away_from_Lucia(Integer)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Sean shouts \"Free Coffee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Free Coffee\"",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefnitions.sean_shouts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Lucia \"cannot listen\" to the message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cannot listen\"",
+                  "offset": 6
+                }
+              ],
+              "location": "StepDefnitions.lucia_to_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shout Feature",
+    "description": "",
+    "id": "shout-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sekeleton/shout.feature",
+    "tags": []
+  }
+]
